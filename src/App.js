@@ -36,13 +36,16 @@ export default function App() {
   }
 
   function handleSave() {
-    const setSingleNote = {
-      title,
-      paragraph,
-      tags,
-    };
+    const updatedNotes = [
+      ...NotesArr,
+      {
+        title,
+        paragraph,
+        tags,
+      },
+    ];
 
-    setNotesArr(singleNote);
+    setNotesArr(updatedNotes);
     console.log(NotesArr);
     clearState;
     setAddnew(false);
