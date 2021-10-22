@@ -1,0 +1,97 @@
+/*******************/
+/*Global*/
+/*******************/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 6px 14px;
+  border: 1px solid orange;
+  font-size: 1.01rem;
+  background-color: orange;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: orange;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 6px 14px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  border: 1px solid orange;
+}
+
+textarea {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 10px 15px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  border: 1px solid orange;
+}
+
+.hidden {
+  display: none;
+}
+
+/*******************/
+/*Navbar*/
+/*******************/
+
+.nav-container {
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0.4rem 0;
+}
+
+/*******************/
+/*Form*/
+/*******************/
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+/*******************/
+/*Notes*/
+/*******************/
+
+.notes-container {
+  max-width: 500px;
+  padding: 10px 20px;
+  margin: 1rem;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
